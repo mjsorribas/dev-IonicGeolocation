@@ -1,0 +1,19 @@
+<ion-view view-title="Your Location" class="backgroundImage" name="tab-location">
+  <ion-content>
+    <div class="centerDiv mainFont">
+      <div class="largeTopPadding">
+        Latitude:
+      </div>
+      <div class="topPadding">{{vm.location.latitude}}</div>
+      <div class="largeTopPadding">Longitude: </div>
+      <div class="topPadding">{{vm.location.longitude}}</div>
+      <div class="largeTopPadding">Altitude: </div>
+      <div class="topPadding">{{vm.location.altitude}}</div>
+      <div class="largeTopPadding">Speed: </div>
+      <div class="topPadding">{{vm.location.speed}} m/s</div>
+      <div class="largeTopPadding">GPS Enabled?: </div>
+      <div class="topPadding">{{vm.location.gpsEnabled}}</div>
+    </div>
+  </ion-content>
+
+</ion-view>
